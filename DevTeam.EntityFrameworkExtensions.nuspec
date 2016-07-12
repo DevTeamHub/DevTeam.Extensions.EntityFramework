@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>DevTeam.EntityFrameworkExtensions</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Entity Framework Extensions</title>
     <authors>Dev Team Inc.</authors>
     <owners>Dev Team Inc.</owners>
