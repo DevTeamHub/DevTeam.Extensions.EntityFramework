@@ -1,5 +1,6 @@
-﻿using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
+﻿using Microsoft.EntityFrameworkCore;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace DevTeam.EntityFrameworkExtensions.DbContext
 {
@@ -7,14 +8,7 @@ namespace DevTeam.EntityFrameworkExtensions.DbContext
     {
         DbSet<TEntity> Set<TEntity>()
             where TEntity: class;
-
-        DbEntityEntry<TEntity> Entry<TEntity>(TEntity entity)
-            where TEntity : class;
-
-        Database Database { get; }
-
-        DbChangeTracker ChangeTracker { get; }
-
         int SaveChanges();
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }
 }
