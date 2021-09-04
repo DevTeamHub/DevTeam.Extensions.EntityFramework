@@ -14,12 +14,12 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>EntityFramework;IQueryable;Expression</PackageTags>
     <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <Copyright>Copyright (c) Dev Team, Inc 2021.</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="CONTRIBUTING.md" />
-	<None Remove="LICENSE.md" />
-	<None Remove="README.md" />
 	<None Remove=".gitignore" />
   </ItemGroup>
 
@@ -29,6 +29,8 @@
 
   <ItemGroup>
 	<None Include="icon.png" Pack="true" PackagePath="\" />
+	<None Include="LICENSE.md" Pack="true" PackagePath="\" />
+	<None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
