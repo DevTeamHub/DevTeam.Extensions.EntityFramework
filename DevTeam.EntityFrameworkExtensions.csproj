@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>DevTeam.EntityFrameworkExtensions</PackageId>
-    <Version>1.0.2</Version>
+    <Version>3.0.0</Version>
     <Authors>dbezzubenkov, dev-team</Authors>
     <Company>Dev Team, Inc</Company>
     <Description>Common extensions for entities for every project using Entity Framework</Description>

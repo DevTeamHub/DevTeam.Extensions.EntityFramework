@@ -1,5 +1,5 @@
 ﻿
-namespace DevTeam.EntityFrameworkExtensions.DbContext
+namespace DevTeam.EntityFrameworkExtensions
 {
     public interface IDeleted
     {
