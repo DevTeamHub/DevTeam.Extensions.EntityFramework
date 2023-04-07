@@ -1,8 +1,6 @@
-﻿
-namespace DevTeam.EntityFrameworkExtensions
+﻿namespace DevTeam.Extensions.EntityFramework;
+
+public interface IDeleted
 {
-    public interface IDeleted
-    {
-        bool IsDeleted { get; set; }
-    }
+    bool IsDeleted { get; set; }
 }
